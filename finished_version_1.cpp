@@ -121,7 +121,7 @@ int main() {
         std::cout << "You entered:" << std::endl; // printing what the user input
         std::cout << "Atomic number: " << atomic_num << std::endl; // so the user can check its right
         std::cout << "Initial quantum number: " << initial_num << std::endl;
-        std::cout << "Final quantum number " << final_num << std::endl;
+        std::cout << "Final quantum number: " << final_num << std::endl;
         // takes the user input for their choice of units and validates input
         std::string choice = choose_units(); 
         // calculating the energy in J or eV
